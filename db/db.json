@@ -1,0 +1,58 @@
+{
+  "createUser": [
+    {
+      "id": 1,
+      "name": "krishna",
+      "email": "kris@gmail.com",
+      "password": "354356"
+    },
+    {
+      "id": 2,
+      "name": "krih",
+      "email": "krishw@gmail.com",
+      "password": "43566"
+    },
+    {
+      "id": 3,
+      "name": "hna",
+      "email": "krisdwfds@gmail.com",
+      "password": "3546"
+    },
+    {
+      "name": "khvfd",
+      "email": "xyx@gmail.com",
+      "password": "51374",
+      "id": 4
+    },
+    {
+      "name": "khvfd",
+      "email": "x@gmail.com",
+      "password": "51374",
+      "id": 5
+    },
+    {
+      "name": "khvfd",
+      "email": "x@gmail.com",
+      "password": "51374",
+      "id": 6
+    },
+    {
+      "name": "hsdfda",
+      "email": "m@g.com",
+      "password": "sqaddfsD",
+      "id": 7
+    },
+    {
+      "name": "hsdfda",
+      "email": "m@g.com",
+      "password": "nv",
+      "id": 8
+    },
+    {
+      "name": "hsdfda",
+      "email": "m@g.com",
+      "password": "nv",
+      "id": 9
+    }
+  ]
+}

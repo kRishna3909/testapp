@@ -52,7 +52,7 @@ function Sortdata(){
         }
      
     }*/
-    const handleSort=(accessor, ordertype)=>{
+     const handleSort=(accessor, ordertype)=>{
             
           //   console.log(accessor, ordertype)
         if(accessor){
@@ -105,7 +105,7 @@ function Sortdata(){
                 <Tablehead  columns={columns} handleSort={handleSort} />
                 <Tablebody  columns={columns} tabledata={tabledata}/>
             </table>
-            <button className="btn"  >Add</button>
+              <button className="btn"  >Add</button>
             {/*<table>
                 <thead>
                     <tr>

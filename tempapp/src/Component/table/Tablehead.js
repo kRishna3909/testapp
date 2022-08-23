@@ -6,7 +6,7 @@ import down from './down-arrow.png'
 
 export default function Tablehead({columns ,handleSort}){
     const[sortField ,setSortfield]=useState(' ')
-    const [order, setOrder]=useState('asc')
+     const [order, setOrder]=useState('asc')
     
     const handleSorting=(accessor)=>{
        // console.log('SO',sortField)
@@ -25,7 +25,7 @@ export default function Tablehead({columns ,handleSort}){
     return(
         <thead className='head'>
              <tr className="head-row">
-                {columns.map(({label ,accessor})=>{
+                 {columns.map(({label ,accessor})=>{
                     return(
                         <th key={accessor} onClick={()=>{handleSorting(accessor)}}>
                             <span className="dFlex"><span className="arrow up"></span>

@@ -8,7 +8,7 @@ export default function Tablebody({columns ,tabledata}){
             //console.log(data)
     return (
      <tr key={data.id}>
-      {columns.map(({ accessor }) => {
+          {columns.map(({ accessor }) => {
         //console.log(accessor)
         //console.log(data[accessor])
        const tData = data[accessor] ? data[accessor] : "——";

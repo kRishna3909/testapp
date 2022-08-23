@@ -1,0 +1,22 @@
+.main{ 
+
+        text-align: center;
+      
+     ;
+}
+.loginForm{
+    position: absolute;
+    left:40%;
+    top:50%;    
+    border: 1px solid black;
+    font-size: large;
+    
+    
+    
+    }
+    .label-div{
+        display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center     ;
+    }
